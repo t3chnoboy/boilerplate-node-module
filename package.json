@@ -1,8 +1,8 @@
 {
-  "name": "webapp",
+  "name": "node module",
   "version": "0.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha"
   },
@@ -14,23 +14,5 @@
     "gulp-mocha": "^0.4.1",
     "gulp-coffee-es6": "git://github.com/t3chnoboy/gulp-coffee-es6.git",
     "coffee-script": "^1.7.1"
-  },
-  "dependencies": {
-    "co": "^3.0.4",
-    "koa-route": "^1.1.0",
-    "koa-logger": "^1.2.0",
-    "koa-static": "^1.4.3",
-    "co-body": "0.0.1",
-    "co-views": "^0.2.0",
-    "koa": "^0.5.0",
-    "koa-json": "0.0.2",
-    "qs": "^0.6.6",
-    "koa-qs": "^1.0.0",
-    "koa-session": "^2.0.0",
-    "cogent": "^0.3.14",
-    "koa-router": "^3.1.0"
-  },
-  "engines": {
-    "node": ">= 0.11.10"
   }
 }
