@@ -22,4 +22,3 @@ gulp.task 'watch', ->
   gulp.watch paths.lib,  ['lib']
 
 gulp.task 'default', ['index', 'lib', 'watch']
-
